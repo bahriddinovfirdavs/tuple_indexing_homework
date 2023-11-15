@@ -11,7 +11,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository: Codeschool-Python-Test/list_indexing_tests
+          repository: Codeschool-Python-Test/tuple_indexing_tests
           token: ${{secrets.TEST_KEY}}
           path: test
       - name: Install dependencies
