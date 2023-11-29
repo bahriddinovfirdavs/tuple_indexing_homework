@@ -6,13 +6,12 @@ def main(tuple1):
     Returns:
         tuple: return answer
     """
-    q=''
+    q=0
     for i in tuple1:
+        q+=1
         if i==1:
-            q+='True,'+' '
-        elif i!=1:
-            i=str(i)
-            q+=i+', '
-    return f'({q[:-2]})'
+            tuple1[q] = True
+tuple1=(1,0,0,0,1)
+print(main(tuple1)) 
 
 

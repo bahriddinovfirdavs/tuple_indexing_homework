@@ -6,4 +6,8 @@ def main(tuple_num):
     Returns:
         int: return answer
     """
-    return
+    if tuple_num[0]>tuple_num[-1]:
+        return tuple_num[0]
+    if tuple_num[0]<tuple_num[-1]:
+        return tuple_num[1]
+    
