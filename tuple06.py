@@ -6,4 +6,12 @@ def main(tuple1):
     Returns:
         tuple: return answer
     """
-    return
+    q=''
+    for i in tuple1:
+        if i==1:
+            q+=True
+        elif i!=1:
+            i=str(i)
+            q+=i
+    return tuple(q)
+
