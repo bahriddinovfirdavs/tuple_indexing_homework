@@ -6,9 +6,9 @@ def main(tuple_num):
     Returns:
         int: return answer
     """
-    if tuple_num[0]>tuple_num[-1]:
-        return tuple_num[0]
-    if tuple_num[0]<tuple_num[-1]:
-        return tuple_num[1]
-tuple1=(5, 32, 1, 4, 3)
-print(main(tuple1))
+    a=tuple_num[0]
+    b=tuple_num[-1]
+    if a>b:
+        return a
+    if a<b:
+        return b
