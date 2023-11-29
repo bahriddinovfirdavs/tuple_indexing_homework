@@ -7,4 +7,5 @@ def main(tuple1,i):
     Returns:
         tuple: return answer
     """
-    return tuple1(i)
+    return tuple1[i]
+
