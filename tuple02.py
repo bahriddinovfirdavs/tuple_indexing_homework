@@ -6,4 +6,6 @@ def main(tuple1):
     Returns:
         tuple: return answer
     """
-    return
+    return tuple1[0]
+tuple1=tuple(map(int,input().split()))
+print(main(tuple1))
