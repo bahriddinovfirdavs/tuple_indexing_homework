@@ -10,3 +10,5 @@ def main(tuple_num):
         return tuple_num[0]
     if tuple_num[0]<tuple_num[-1]:
         return tuple_num[1]
+tuple1=(5, 32, 1, 4, 3)
+print(main(tuple1))
