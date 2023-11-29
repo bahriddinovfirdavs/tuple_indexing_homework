@@ -7,4 +7,3 @@ def main(tuple1):
         tuple: return answer
     """
     return tuple1[0]
-print(main())
