@@ -6,4 +6,7 @@ def main():
     Returns:
         tuple: return answer
     """
-    return
+    a=()
+    return a
+
+print(main())
