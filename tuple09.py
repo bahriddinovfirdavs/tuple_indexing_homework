@@ -6,4 +6,16 @@ def main(tuple1):
     Returns:
         bool: return answer
     """
-    return
+    q=0
+    w=0
+    for i in tuple1:
+        if i==q:
+            q=i
+            w+=1
+    if len(tuple1)== w:
+        return True
+    else:
+        return False
+   
+        
+    
