@@ -11,7 +11,6 @@ def main(tuple1):
         q+=1
         if i==1:
             tuple1[q] = True
-tuple1=(1,0,0,0,1)
-print(main(tuple1)) 
+
 
 
