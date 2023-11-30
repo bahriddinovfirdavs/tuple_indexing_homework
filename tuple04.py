@@ -7,3 +7,5 @@ def main(tuple1):
         tuple: return answer
     """
     return tuple1[-1]
+tuple1=(1, 2, 3, 4, 5,657,54)
+print(main(tuple1))

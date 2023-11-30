@@ -7,6 +7,4 @@ def main(tuple1,tuple2):
     Returns:
         tuple: return answer
     """
-    r=tuple1+tuple2
-    return r 
-
+    return tuple1+tuple2
